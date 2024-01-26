@@ -1,0 +1,59 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #111;
+}
+
+.title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+
+.title span {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+}
+
+@keyframes flip {
+    0%, 80% {
+        transform: rotateY(360deg);
+    }
+}
+
+#slider-container {
+    position: relative;
+    width: 90%;
+}
+
+#slider-path {
+    position: absolute;
+}
+
+#slider-circle {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    cursor: pointer;
+    left: -7.5px;
+    top: 100px;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: #093279;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: none;
+    white-space: nowrap;
+}
+
