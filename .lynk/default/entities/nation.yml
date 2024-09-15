@@ -1,0 +1,21 @@
+name: nation
+
+description: ''
+
+key_table: demo_dev.tpch_sf1.nation
+
+aliases: []
+
+related_entities: {}
+
+asset_features: []
+
+derived_features: []
+
+related_assets:
+  demo_dev.tpch_sf1.nation:
+    type: fields
+    fields:
+    - entity_field: nation_id
+      asset_field: nation_id
+      operator: equal

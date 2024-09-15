@@ -1,0 +1,21 @@
+name: customer
+
+description: ''
+
+key_table: demo_dev.tpch_sf1.customer
+
+aliases: []
+
+related_entities: {}
+
+asset_features: []
+
+derived_features: []
+
+related_assets:
+  demo_dev.tpch_sf1.customer:
+    type: fields
+    fields:
+    - entity_field: customer_id
+      asset_field: customer_id
+      operator: equal

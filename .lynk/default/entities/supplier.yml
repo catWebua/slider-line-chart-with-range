@@ -1,0 +1,27 @@
+name: supplier
+
+description: ''
+
+key_table: demo_dev.tpch_sf1.supplier
+
+aliases: []
+
+related_entities: {}
+
+asset_features: []
+
+derived_features: []
+
+related_assets:
+  demo_dev.tpch_sf1.supplier:
+    type: fields
+    fields:
+    - entity_field: supplier_id
+      asset_field: supplier_id
+      operator: equal
+  demo_dev.tpch_sf1.partsupp:
+    type: fields
+    fields:
+    - entity_field: supplier_id
+      asset_field: supplier_id
+      operator: equal
