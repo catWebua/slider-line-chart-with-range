@@ -1,0 +1,24 @@
+name: alex
+
+description: frbhefhbhbfhbhebfbhrebhfehr
+
+key_table: demo_dev.tpch_sf1.orders
+
+aliases:
+- wefwefe
+- ghhtht
+- nvxsssss
+
+related_entities: {}
+
+asset_features: []
+
+derived_features: []
+
+related_assets:
+  demo_dev.tpch_sf1.lineitem:
+    type: fields
+    fields:
+    - entity_field: comment
+      asset_field: line_status
+      operator: equal
