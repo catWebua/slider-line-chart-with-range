@@ -1,0 +1,25 @@
+name: alex2
+
+description: alex2222222 fhhfhehfhehfh
+
+key_table: demo_dev.tpch_sf1.lineitem
+
+aliases:
+- qqqqq
+- wwwwww
+- eeeeee
+
+related_entities:
+  part: '1:1'
+
+asset_features: []
+
+derived_features: []
+
+related_assets:
+  demo_dev.tpch_sf1.customer:
+    type: fields
+    fields:
+    - entity_field: commit_date
+      asset_field: market_segment
+      operator: equal
