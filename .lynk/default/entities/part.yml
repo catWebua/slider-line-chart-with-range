@@ -2,26 +2,442 @@ name: part
 
 description: ''
 
-key_table: demo_dev.tpch_sf1.part
+key_table: demo_dev.tpch_sf1.lineitem
 
 aliases: []
 
-related_entities: {}
+related_entities:
+  order: '1:1'
+  supplier: n:n
 
 asset_features: []
 
 derived_features: []
 
 related_assets:
+  demo_dev.tpch_sf1.lineitem:
+    type: fields
+    fields:
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
   demo_dev.tpch_sf1.part:
     type: fields
     fields:
     - entity_field: part_id
       asset_field: part_id
       operator: equal
-  demo_dev.tpch_sf1.lineitem:
-    type: fields
-    fields:
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
+    - entity_field: part_id
+      asset_field: part_id
+      operator: equal
     - entity_field: part_id
       asset_field: part_id
       operator: equal
