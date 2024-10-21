@@ -11,7 +11,16 @@ aliases:
 
 related_entities: {}
 
-asset_features: []
+asset_features:
+- asset: demo_dev.tpch_sf1.device
+  filters: null
+  features:
+  - name: id
+    type: first_last
+    options:
+      method: first
+      sort_by: type
+      field: id
 
 derived_features: []
 
