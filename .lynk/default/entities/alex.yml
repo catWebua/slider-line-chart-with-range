@@ -36,6 +36,21 @@ asset_features:
   - name: f2
     type: metric
     measure: f2
+- asset: demo_dev.tpch_sf1.customer
+  filters: null
+  features:
+  - name: name
+    type: first_last
+    options:
+      method: first
+      sort_by: market_segment
+      field: name
+  - name: nation_id
+    type: first_last
+    options:
+      method: first
+      sort_by: market_segment
+      field: nation_id
 
 derived_features:
 - name: ''
