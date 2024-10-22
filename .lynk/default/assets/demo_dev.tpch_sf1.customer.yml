@@ -1,0 +1,10 @@
+asset: demo_dev.tpch_sf1.customer
+
+key: []
+
+business_key: []
+
+measures:
+- name: f2
+  description: f2
+  sql: f2

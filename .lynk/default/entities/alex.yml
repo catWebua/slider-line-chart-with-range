@@ -21,8 +21,28 @@ asset_features:
       method: first
       sort_by: type
       field: id
+- asset: demo_dev.tpch_sf1.device
+  filters: null
+  features:
+  - name: type
+    type: first_last
+    options:
+      method: last
+      sort_by: type
+      field: type
+- asset: demo_dev.tpch_sf1.customer
+  filters: null
+  features:
+  - name: f2
+    type: metric
+    measure: f2
 
-derived_features: []
+derived_features:
+- name: ''
+  sql: ''
+  features:
+  - feature: order_date
+    alias: null
 
 related_assets:
   demo_dev.tpch_sf1.lineitem:
