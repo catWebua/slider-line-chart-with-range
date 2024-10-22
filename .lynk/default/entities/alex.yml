@@ -43,6 +43,11 @@ derived_features:
   features:
   - feature: order_date
     alias: null
+- name: f5
+  sql: ''
+  features:
+  - feature: type
+    alias: null
 
 related_assets:
   demo_dev.tpch_sf1.lineitem:
