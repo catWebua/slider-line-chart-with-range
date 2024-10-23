@@ -63,6 +63,13 @@ derived_features:
   features:
   - feature: type
     alias: null
+- name: f444
+  sql: ''
+  features:
+  - feature: type
+    alias: null
+  - feature: nation_id
+    alias: null
 
 related_assets:
   demo_dev.tpch_sf1.lineitem:
