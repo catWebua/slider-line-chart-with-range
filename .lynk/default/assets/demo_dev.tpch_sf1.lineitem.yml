@@ -1,0 +1,10 @@
+asset: demo_dev.tpch_sf1.lineitem
+
+key: []
+
+business_key: []
+
+measures:
+- name: m333
+  description: m55555
+  sql: m33333

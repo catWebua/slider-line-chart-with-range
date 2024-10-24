@@ -51,6 +51,12 @@ asset_features:
       method: first
       sort_by: market_segment
       field: nation_id
+- asset: demo_dev.tpch_sf1.lineitem
+  filters: null
+  features:
+  - name: m333
+    type: metric
+    measure: m333
 
 derived_features:
 - name: ''
