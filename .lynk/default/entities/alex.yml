@@ -57,6 +57,15 @@ asset_features:
   - name: m333
     type: metric
     measure: m333
+- asset: demo_dev.tpch_sf1.device
+  filters: null
+  features:
+  - name: id
+    type: first_last
+    options:
+      method: first
+      sort_by: id
+      field: id
 
 derived_features:
 - name: ''
