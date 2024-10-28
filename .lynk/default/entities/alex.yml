@@ -66,6 +66,15 @@ asset_features:
       method: first
       sort_by: id
       field: id
+- asset: demo_dev.tpch_sf1.device
+  filters: null
+  features:
+  - name: type
+    type: first_last
+    options:
+      method: first
+      sort_by: id
+      field: type
 
 derived_features:
 - name: ''
@@ -84,6 +93,11 @@ derived_features:
   - feature: type
     alias: null
   - feature: nation_id
+    alias: null
+- name: fd
+  sql: dd
+  features:
+  - feature: type
     alias: null
 
 related_assets:
