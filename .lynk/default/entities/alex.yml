@@ -75,6 +75,33 @@ asset_features:
       method: first
       sort_by: id
       field: type
+- asset: demo_dev.tpch_sf1.device
+  filters:
+  - field: customerid
+    operator: is
+    values:
+    - 3356666
+    type: field
+  - field: type
+    operator: is
+    values:
+    - fffff
+    - code
+    - 'Null'
+    type: field
+  - field: customerid
+    operator: between
+    values:
+    - 4434
+    - 666666
+    type: field
+  features:
+  - name: customerid
+    type: first_last
+    options:
+      method: first
+      sort_by: type
+      field: customerid
 
 derived_features:
 - name: ''
