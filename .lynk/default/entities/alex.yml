@@ -141,6 +141,11 @@ derived_features:
     alias: jjj
   - feature: m333
     alias: kkk
+- name: formula000
+  sql: dd
+  features:
+  - feature: customerid
+    alias: null
 
 related_assets:
   demo_dev.tpch_sf1.lineitem:
