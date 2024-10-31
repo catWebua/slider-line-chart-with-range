@@ -126,6 +126,21 @@ derived_features:
   features:
   - feature: type
     alias: null
+- name: formula6
+  sql: formula6SQL
+  features:
+  - feature: id
+    alias: sss
+  - feature: type
+    alias: fff
+  - feature: f2
+    alias: ggg
+  - feature: name
+    alias: hhh
+  - feature: nation_id
+    alias: jjj
+  - feature: m333
+    alias: kkk
 
 related_assets:
   demo_dev.tpch_sf1.lineitem:
