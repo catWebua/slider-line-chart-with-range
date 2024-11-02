@@ -113,6 +113,21 @@ asset_features:
   - name: met
     type: metric
     measure: met
+- asset: demo_dev.tpch_sf1.device
+  filters:
+  - type: field
+    field: type
+    operator: is
+    values:
+    - set
+    - 'Null'
+  features:
+  - name: id
+    type: first_last
+    options:
+      method: first
+      sort_by: id
+      field: id
 
 derived_features:
 - name: ''
