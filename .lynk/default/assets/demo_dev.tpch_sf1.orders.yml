@@ -1,0 +1,10 @@
+asset: demo_dev.tpch_sf1.orders
+
+key: []
+
+business_key: []
+
+measures:
+- name: met
+  description: metricFilter123
+  sql: metricFilterSQL

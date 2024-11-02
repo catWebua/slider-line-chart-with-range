@@ -77,24 +77,24 @@ asset_features:
       field: type
 - asset: demo_dev.tpch_sf1.device
   filters:
-  - field: customerid
+  - type: field
+    field: customerid
     operator: is
     values:
     - 3356666
-    type: field
-  - field: type
+  - type: field
+    field: type
     operator: is
     values:
     - fffff
     - code
     - 'Null'
-    type: field
-  - field: customerid
+  - type: field
+    field: customerid
     operator: between
     values:
     - 4434
     - 666666
-    type: field
   features:
   - name: customerid
     type: first_last
@@ -102,6 +102,17 @@ asset_features:
       method: first
       sort_by: type
       field: customerid
+- asset: demo_dev.tpch_sf1.orders
+  filters:
+  - type: field
+    field: order_date
+    operator: lt
+    values:
+    - '2024-11-13T22:00:00.000Z'
+  features:
+  - name: met
+    type: metric
+    measure: met
 
 derived_features:
 - name: ''
