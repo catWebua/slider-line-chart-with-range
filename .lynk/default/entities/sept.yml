@@ -1,0 +1,23 @@
+name: sept
+
+description: ''
+
+key_table: demo_dev.tpch_sf1.customer
+
+aliases:
+- ''
+
+related_entities:
+  nation: '1:1'
+
+asset_features: []
+
+derived_features: []
+
+related_assets:
+  demo_dev.tpch_sf1.customer:
+    type: fields
+    fields:
+    - entity_field: nation_id
+      asset_field: name
+      operator: equal
