@@ -8,7 +8,7 @@ aliases:
 - ''
 
 related_entities:
-  nation: n:1
+  nation: n:n
 
 asset_features: []
 
