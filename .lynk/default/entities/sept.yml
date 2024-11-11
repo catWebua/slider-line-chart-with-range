@@ -9,6 +9,8 @@ aliases:
 
 related_entities:
   nation: n:n
+  supplier: '1:1'
+  alex: n:1
 
 asset_features: []
 
