@@ -128,6 +128,9 @@ asset_features:
       method: first
       sort_by: id
       field: id
+- asset: demo_dev.tpch_sf1.lineitem
+  filters: null
+  features: []
 
 derived_features:
 - name: ''
