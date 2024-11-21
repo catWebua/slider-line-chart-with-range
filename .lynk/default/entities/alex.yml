@@ -140,6 +140,9 @@ asset_features:
 - asset: demo_dev.tpch_sf1.lineitem
   filters: null
   features: []
+- asset: demo_dev.tpch_sf1.lineitem
+  filters: null
+  features: []
 
 derived_features:
 - name: ''
