@@ -6,9 +6,6 @@ key_table: demo_dev.tpch_sf1.customer
 
 aliases: []
 
-related_entities:
-  nation: n:1
-
 asset_features: []
 
 derived_features: []
@@ -17,99 +14,6 @@ related_assets:
   demo_dev.tpch_sf1.customer:
     type: fields
     fields:
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
-    - entity_field: customer_id
-      asset_field: customer_id
-      operator: equal
     - entity_field: customer_id
       asset_field: customer_id
       operator: equal

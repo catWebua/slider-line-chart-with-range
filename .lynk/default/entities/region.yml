@@ -6,9 +6,6 @@ key_table: demo_dev.tpch_sf1.region
 
 aliases: []
 
-related_entities:
-  nation: 1:n
-
 asset_features: []
 
 derived_features: []
@@ -17,99 +14,6 @@ related_assets:
   demo_dev.tpch_sf1.region:
     type: fields
     fields:
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
-    - entity_field: region_id
-      asset_field: region_id
-      operator: equal
     - entity_field: region_id
       asset_field: region_id
       operator: equal
