@@ -1,0 +1,47 @@
+entities_relationships:
+  customer-nation:
+    asset: demo_dev.tpch_sf1.customer
+    main_entity_columns:
+    - customer_id
+    entity_columns:
+    - nation_id
+    relationship: n:1
+  order-part:
+    asset: demo_dev.tpch_sf1.lineitem
+    main_entity_columns:
+    - order_id
+    - part_id
+    entity_columns:
+    - order_id
+    - part_id
+    relationship: '1:1'
+  part-supplier:
+    asset: demo_dev.tpch_sf1.lineitem
+    main_entity_columns:
+    - order_id
+    - part_id
+    entity_columns:
+    - supplier_id
+    relationship: n:n
+  order-supplier:
+    asset: demo_dev.tpch_sf1.lineitem
+    main_entity_columns:
+    - order_id
+    - part_id
+    entity_columns:
+    - supplier_id
+    relationship: n:n
+  nation-region:
+    asset: demo_dev.tpch_sf1.nation
+    main_entity_columns:
+    - nation_id
+    entity_columns:
+    - region_id
+    relationship: n:1
+  nation-supplier:
+    asset: demo_dev.tpch_sf1.supplier
+    main_entity_columns:
+    - supplier_id
+    entity_columns:
+    - nation_id
+    relationship: n:1
