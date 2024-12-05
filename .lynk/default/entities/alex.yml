@@ -9,72 +9,78 @@ aliases:
 - ghhtht
 - nvxsssss
 
-related_entities: {}
-
 asset_features:
 - asset: demo_dev.tpch_sf1.device
   filters: null
   features:
-  - name: id
-    type: first_last
+  - type: first_last
+    name: id
     options:
       method: first
       sort_by: type
       field: id
+      data_type: null
 - asset: demo_dev.tpch_sf1.device
   filters: null
   features:
-  - name: type
-    type: first_last
+  - type: first_last
+    name: type
     options:
       method: last
       sort_by: type
       field: type
+      data_type: null
 - asset: demo_dev.tpch_sf1.customer
   filters: null
   features:
-  - name: f2
-    type: metric
+  - type: metric
+    name: f2
     measure: f2
+    data_type: null
 - asset: demo_dev.tpch_sf1.customer
   filters: null
   features:
-  - name: name
-    type: first_last
+  - type: first_last
+    name: name
     options:
       method: first
       sort_by: market_segment
       field: name
-  - name: nation_id
-    type: first_last
+      data_type: null
+  - type: first_last
+    name: nation_id
     options:
       method: first
       sort_by: market_segment
       field: nation_id
+      data_type: null
 - asset: demo_dev.tpch_sf1.lineitem
   filters: null
   features:
-  - name: m333
-    type: metric
+  - type: metric
+    name: m333
     measure: m333
+    data_type: null
 - asset: demo_dev.tpch_sf1.device
   filters: null
   features:
-  - name: id
-    type: first_last
+  - type: first_last
+    name: id
     options:
       method: first
       sort_by: id
       field: id
+      data_type: null
 - asset: demo_dev.tpch_sf1.device
   filters: null
   features:
-  - name: type
-    type: first_last
+  - type: first_last
+    name: type
     options:
       method: first
       sort_by: id
       field: type
+      data_type: null
 - asset: demo_dev.tpch_sf1.device
   filters:
   - type: field
@@ -96,12 +102,13 @@ asset_features:
     - 4434
     - 666666
   features:
-  - name: customerid
-    type: first_last
+  - type: first_last
+    name: customerid
     options:
       method: first
       sort_by: type
       field: customerid
+      data_type: null
 - asset: demo_dev.tpch_sf1.orders
   filters:
   - type: field
@@ -110,9 +117,10 @@ asset_features:
     values:
     - '2024-11-13T22:00:00.000Z'
   features:
-  - name: met
-    type: metric
+  - type: metric
+    name: met
     measure: met
+    data_type: null
 - asset: demo_dev.tpch_sf1.device
   filters:
   - type: field
@@ -122,12 +130,13 @@ asset_features:
     - set
     - 'Null'
   features:
-  - name: id
-    type: first_last
+  - type: first_last
+    name: id
     options:
       method: first
       sort_by: id
       field: id
+      data_type: null
 - asset: demo_dev.tpch_sf1.lineitem
   filters: null
   features: []
@@ -147,16 +156,19 @@ asset_features:
 derived_features:
 - name: ''
   sql: ''
+  data_type: null
   features:
   - feature: order_date
     alias: null
 - name: f5
   sql: ''
+  data_type: null
   features:
   - feature: type
     alias: null
 - name: f444
   sql: ''
+  data_type: null
   features:
   - feature: type
     alias: null
@@ -164,11 +176,13 @@ derived_features:
     alias: null
 - name: fd
   sql: dd
+  data_type: null
   features:
   - feature: type
     alias: null
 - name: formula6
   sql: formula6SQL
+  data_type: null
   features:
   - feature: id
     alias: sss
@@ -184,13 +198,14 @@ derived_features:
     alias: kkk
 - name: formula000
   sql: dd
+  data_type: null
   features:
   - feature: customerid
     alias: null
 
 related_assets:
-  demo_dev.tpch_sf1.lineitem:
-    type: fields
+  ? ''
+  : type: fields
     fields:
     - entity_field: comment
       asset_field: line_status
