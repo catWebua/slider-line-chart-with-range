@@ -1,3 +1,5 @@
 entity: region
 
+defaults: null
+
 measures: []

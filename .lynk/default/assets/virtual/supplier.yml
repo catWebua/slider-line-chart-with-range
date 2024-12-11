@@ -1,3 +1,5 @@
 entity: supplier
 
+defaults: null
+
 measures: []
