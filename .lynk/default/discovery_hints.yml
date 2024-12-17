@@ -15,7 +15,7 @@ entities_relationships:
     - order_id
     - part_id
     relationship: '1:1'
-  order-supplier:
+  part-supplier:
     asset: demo_dev.tpch_sf1.lineitem
     main_entity_columns:
     - order_id
@@ -23,7 +23,7 @@ entities_relationships:
     entity_columns:
     - supplier_id
     relationship: n:n
-  part-supplier:
+  order-supplier:
     asset: demo_dev.tpch_sf1.lineitem
     main_entity_columns:
     - order_id
