@@ -11,13 +11,13 @@ asset_features: []
 derived_features: []
 
 related_assets:
-  demo_dev.tpch_sf1.orders:
+  demo_dev.tpch_sf1.lineitem:
     type: fields
     fields:
     - entity_field: order_id
       asset_field: order_id
       operator: equal
-  demo_dev.tpch_sf1.lineitem:
+  demo_dev.tpch_sf1.orders:
     type: fields
     fields:
     - entity_field: order_id
